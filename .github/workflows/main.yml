@@ -20,4 +20,4 @@ jobs:
           tools: phpcs
 
       - name: Run phpcs
-        run: phpcs .
+        run: phpcs --report-full --standard=PSR2 .
